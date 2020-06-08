@@ -48,7 +48,7 @@ kubectl label po nginx2 app=v2 --overwrite
 <p>
 
 ```bash
-kubectl get po -L app
+kubectl get po -l app
 ```
 
 </p>
